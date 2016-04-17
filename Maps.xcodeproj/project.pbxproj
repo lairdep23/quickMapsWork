@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203231A31CC4275000C594B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203231A21CC4275000C594B6 /* CoreLocation.framework */; };
 		20FF7C601CC1DD0200EC5C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FF7C5F1CC1DD0200EC5C05 /* AppDelegate.swift */; };
 		20FF7C621CC1DD0200EC5C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FF7C611CC1DD0200EC5C05 /* ViewController.swift */; };
 		20FF7C651CC1DD0200EC5C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FF7C631CC1DD0200EC5C05 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203231A21CC4275000C594B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		20FF7C5C1CC1DD0200EC5C05 /* Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FF7C5F1CC1DD0200EC5C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20FF7C611CC1DD0200EC5C05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203231A31CC4275000C594B6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		20FF7C531CC1DD0200EC5C05 = {
 			isa = PBXGroup;
 			children = (
+				203231A21CC4275000C594B6 /* CoreLocation.framework */,
 				20FF7C5E1CC1DD0200EC5C05 /* Maps */,
 				20FF7C5D1CC1DD0200EC5C05 /* Products */,
 			);
@@ -289,6 +293,7 @@
 				20FF7C701CC1DD0200EC5C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
